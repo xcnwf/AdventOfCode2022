@@ -1,0 +1,12 @@
+#Inputs should only contain txt inputs
+Inputs/*
+!Inputs/*.txt
+
+src_*/*
+
+#src_rust => .rs + .toml file
+!src_rust/*.rs
+!*.toml
+
+#src_python => .py
+!src_python/*.py
