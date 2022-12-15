@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 p1 = 0
 p2 = 0
 import operator

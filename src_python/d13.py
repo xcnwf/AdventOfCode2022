@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 p1=0
 
 def parse_array(l):
@@ -38,7 +39,7 @@ def compare(left,right):
     return None
 
 packets=[]
-with open("d13.txt") as f:
+with open("../Inputs/d13.txt") as f:
     i=1
     while True:
         l1= f.readline().strip()

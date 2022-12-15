@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 p1=0
 p2=0
-with open("d6.txt") as f:
+with open("../Inputs/d6.txt") as f:
     for l in f:
         pos=4
         while pos < len(l):
@@ -17,5 +18,6 @@ with open("d6.txt") as f:
             pos += 1
         p2+=pos
         
-print(f"Part1 : {p1}")
-print(f"Part2 : {p2}")
+if __name__=="__main__":
+    print(f"Part1 : {p1}")
+    print(f"Part2 : {p2}")

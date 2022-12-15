@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 p1=0
 p2=0
-with open("d12.txt") as f:
+with open("../Inputs/d12.txt") as f:
     nodes = []
     for i,line in enumerate(f):
         node_line=[]

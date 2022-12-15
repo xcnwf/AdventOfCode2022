@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 p1=0
 p2=0
-with open("d9_full.txt") as f:
+with open("../Inputs/d9.txt") as f:
     for (i,l) in enumerate(f):
         j = l.find("H")+1
         if j>=0:
